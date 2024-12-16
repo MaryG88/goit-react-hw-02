@@ -13,6 +13,10 @@
   margin-right: 4px;
 }
 
+.options button:hover {
+  border: none;
+}
+
 .good:hover {
   background-color: rgb(75, 150, 91);
 }
