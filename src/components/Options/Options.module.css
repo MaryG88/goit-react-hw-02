@@ -1,0 +1,26 @@
+.options button {
+  padding: 6px;
+  margin-bottom: 20px;
+  transition: cubic-bezier(
+    0.785,
+    0.135,
+    0.15,
+    0.86
+  );
+}
+
+.options button:not(:last-child) {
+  margin-right: 4px;
+}
+
+.good:hover {
+  background-color: rgb(75, 150, 91);
+}
+
+.neutral:hover {
+  background-color: rgb(194, 167, 49);
+}
+
+.bad:hover {
+  background-color: rgb(201, 66, 48);
+}

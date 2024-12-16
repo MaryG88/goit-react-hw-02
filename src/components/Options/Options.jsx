@@ -9,19 +9,19 @@ const Options = ({
   return (
     <div className={styles.options}>
       <button
-        className={styles.button}
+        className={styles.good}
         onClick={() => updateFeedback("good")}
       >
         Good
       </button>
       <button
-        className={styles.button}
+        className={styles.neutral}
         onClick={() => updateFeedback("neutral")}
       >
         Neutral
       </button>
       <button
-        className={styles.button}
+        className={styles.bad}
         onClick={() => updateFeedback("bad")}
       >
         Bad
